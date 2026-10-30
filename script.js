@@ -193,7 +193,7 @@ $("#orderForm").addEventListener("submit", (e) => {
   const traits = $("#oTraits").value;
 
   const lines = [
-    `Hi ${BRAND_NAME}! I want to design a gift.`,
+    `Hi ${BRAND_NAME}! I want to design a custom Jack & Jones tee (₹1,080 launch offer).`,
     "",
     `*My name:* ${$("#oName").value.trim()}`,
     `*My phone:* ${$("#oPhone").value.trim()}`,

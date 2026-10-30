@@ -103,7 +103,8 @@ section { padding: 64px var(--gutter); }
 .nw { white-space: nowrap; }
 .them { position: relative; display: inline-block; font-style: italic; color: var(--cobalt); }
 .scribble { position: absolute; left: -2%; bottom: -0.12em; width: 104%; height: .28em; overflow: visible; }
-.hero-sub { margin-top: 20px; font-size: 1.15rem; max-width: 28ch; }
+.hero-sub { margin-top: 20px; font-size: 1.15rem; max-width: 32ch; }
+.hero-mrp { opacity: 0.6; font-size: 0.95em; text-decoration: line-through; text-decoration-thickness: 2px; margin-left: 4px; }
 .hero .btn { margin-top: 24px; }
 
 .hero-visual { position: relative; justify-self: center; width: min(78vw, 340px); margin-top: 8px; }
@@ -257,8 +258,18 @@ select.input { appearance: none; -webkit-appearance: none; background-image: url
 .ticket-main { padding: 26px 22px 22px; }
 .ticket-label { font-size: .75rem; }
 .ticket-item { font-family: var(--head); font-weight: 800; font-size: 1.4rem; margin-top: 10px; }
-.ticket-price { font-family: var(--head); font-weight: 800; font-size: clamp(3.4rem, 18vw, 5rem); letter-spacing: -0.05em; line-height: 1; color: var(--cobalt); }
-.ticket-incl { margin-top: 8px; max-width: 26ch; }
+.ticket-price-wrap { display: flex; align-items: baseline; flex-wrap: wrap; gap: 10px; margin-top: 4px; }
+.ticket-price { font-family: var(--head); font-weight: 800; font-size: clamp(3.2rem, 16vw, 4.8rem); letter-spacing: -0.05em; line-height: 1; color: var(--cobalt); }
+.ticket-mrp { font-family: var(--head); font-weight: 700; font-size: 1.6rem; text-decoration: line-through; opacity: 0.55; color: var(--ink); text-decoration-thickness: 2px; }
+.ticket-badge { font-size: 0.72rem; background: var(--tomato); color: var(--paper); padding: 3px 8px; border: var(--border); box-shadow: var(--shadow-sm); transform: rotate(-3deg); }
+.partner-badge {
+  display: flex; align-items: center; gap: 12px; margin-top: 14px; padding: 10px 12px;
+  background: var(--paper); border: var(--border); border-radius: var(--radius); box-shadow: var(--shadow-sm);
+}
+.partner-badge img { width: 46px; height: 46px; object-fit: contain; flex-shrink: 0; mix-blend-mode: darken; }
+.partner-tag { font-size: 0.65rem; display: inline-block; background: var(--mustard); color: var(--ink); padding: 1px 6px; border: 1px solid var(--ink); }
+.partner-desc { font-size: 0.88rem; margin-top: 2px; line-height: 1.3; }
+.ticket-incl { margin-top: 12px; max-width: 28ch; }
 .ticket-stub { position: relative; padding: 20px 22px 24px; border-top: 2px dashed var(--ink); }
 .ticket-stub ul { list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
 .ticket-stub li { font-weight: 600; padding: 4px 10px; border: var(--border); border-radius: 999px; background: var(--paper); }
@@ -276,7 +287,8 @@ select.input { appearance: none; -webkit-appearance: none; background-image: url
   border-radius: 50%; transform: rotate(12deg); padding: 16px;
 }
 .stamp .pixel { font-size: .6rem; }
-.stamp strong { font-family: var(--head); font-weight: 800; font-size: 1rem; line-height: 1.05; letter-spacing: -0.02em; }
+.stamp strong { font-family: var(--head); font-weight: 800; font-size: 1.15rem; line-height: 1.05; letter-spacing: -0.02em; }
+.stamp-sub { font-size: .65rem; text-decoration: line-through; opacity: .75; }
 .pricing-note { margin-top: 30px; max-width: 34ch; }
 
 /* ---------- 7. Order ---------- */
