@@ -1,8 +1,8 @@
 /* ==========================================================
    EDIT THESE TWO LINES (also find-and-replace Yaarn in index.html)
    ========================================================== */
-const Yaarn = "Yaarn";
-const WHATSAPP_NUMBER = "91XXXXXXXXXX"; // country code, no + or spaces
+const BRAND_NAME = "Yaarn";
+const WHATSAPP_NUMBER = "917904080352";
 
 /* ---------- Trait data ---------- */
 const TRAITS = [
@@ -193,7 +193,7 @@ $("#orderForm").addEventListener("submit", (e) => {
   const traits = $("#oTraits").value;
 
   const lines = [
-    `Hi ${Yaarn}! I want to design a gift.`,
+    `Hi ${BRAND_NAME}! I want to design a gift.`,
     "",
     `*My name:* ${$("#oName").value.trim()}`,
     `*My phone:* ${$("#oPhone").value.trim()}`,
