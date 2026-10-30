@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <!-- Pixel-art tee in tomato red with an ink outline -->
+  <path fill="#1B1B1B" d="M4 1h3v1h2V1h3v1h1v1h1v1h1v1h1v4h-3v6H3V9H0V5h1V4h1V3h1V2h1z"/>
+  <path fill="#E8452C" d="M5 2h1v1h4V2h2v1h1v1h1v1h1v3h-3v6H4V8H1V5h1V4h1V3h2z"/>
+  <path fill="#F6F1E7" d="M6 2h4v1H6z"/>
+</svg>
